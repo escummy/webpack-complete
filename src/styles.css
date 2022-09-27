@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 20px;
+  background-color: #faf5c0;
+}
+
+img {
+  width: 150px;
+  padding-bottom: 410px;
+  /* To differentiate: Import option 2 in the footer */
+}

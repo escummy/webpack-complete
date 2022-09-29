@@ -74,15 +74,9 @@ Thanks for checking out the Open Source Guides.
 
 Your experiences will benefit others who read and use these guides and following guidelines to help you figure out where you can best be helpful.
 
-- Open Source Guides are released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+- Open Source Guides are released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
 
 Please ensure that your contribution passes all tests if you open a pull request. If there are test failures, you will need to address them before we can merge your contribution.
-
-<br>
-
-## License
-
-By contributing, you agree that your contributions will be licensed under <a href="https://github.com/escummy/vscode-settings-json/blob/main/LICENSE">`[`MIT License`]`</a>
 
 <br>
 

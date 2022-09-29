@@ -1,4 +1,4 @@
-# The complete 'Webpack' starter guide to build in production
+# Complete Webpack 5 to build in production
 
 <!-- ## Travis CI badges and github actions
 # Logo: Framework, tool, base of the project not all  -->
@@ -14,14 +14,21 @@
 
  <!-- [![Build Status](https://travis-ci.org/escummy/dillinger.svg?branch=master)](https://travis-ci.org/escummy/dillinger) <img alt="Github workflows" src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg"/> <img alt="Contributor Covenant v2.1" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/> <img alt="License" src="https://img.shields.io/github/license/escummy/webpack-complete?style=flat-square&labelColor=343b41"/> -->
 
-> Start a local server, all neccesary files to start a project and build quality code to production, compatibility browsers, styles loaders, development mode and production mode in different files, minifiy using #hashes, cache and more.
+> Start a local server, all neccesary files to create any project and build quality code to production, compatibility browsers, styles loaders, development and production mode, minifiy using #hashes, cache and more.
 
-## Snapshots
+<br>
 
+<!-- ## Snapshots -->
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90976678/192619704-24faa61b-6ac0-498d-8116-5c21abfa74f4.gif" width="95%" title="hover text" alt="accessibility text">
+</p>
+
+<br>
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. To start clone the repository or download it as a file.zip
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy on a live system and clone the repository.
 
 <br>
 
@@ -43,15 +50,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### # Prerequisites
 
-<!-- Add more if you need it -->
+To continue, you need to have installed: [`Node`]
 
-To continue, you need to have installed:
+<br>
 
-- [Node] - Check in your terminal bash if is already installed.
+(Check in your terminal bash)
 
 ```
 node --version
 ```
+
+<br>
 
 Else, Install nodejs from the official site 'version LTS' (Recommended)
 
@@ -73,13 +82,20 @@ Else, Install nodejs from the official site 'version LTS' (Recommended)
 
 Depending on the mode we want to use, we can run the following commands:
 
-### # Build in Development mode
+<br>
 
-- Development - In the project folder, run this command in terminal to transpile babel and check browser compatibility without hashes in the file name.
+### # Start server
+
+- To start a server in mode development at localhost, and keep it watching for changes.
 
 ```bash
   npm run dev
 ```
+
+- This command is the only one that can also be used typing just 'npm start'
+- To Stop the local server while is running on terminal, you can type `control + c` to finish the watcher and shut down the server.
+
+<br>
 
 ### # Build in Production mode
 
@@ -103,22 +119,11 @@ Depending on the mode we want to use, we can run the following commands:
 
 This will launch a web browser that will auto-update every time you save a watched file as(#specify-files-to-watch), but before push to production, we recommend minify the outputs files and caching how this purpose package helper [Browsersync](https://www.browsersync.io/) -->
 
-## Start server
-
-- To start a server to develop at localhost, and leave it (watching for changes).
-
-```bash
-  npm run start
-```
-
-- This command is the only one that can also be used typing just 'npm start'
-- To Stop the local server while is running on terminal, you can type `control + c` to finish the watcher and shut down the server.
-
-<br>
-
 ## Latest releases
 
-Repositories use [SemVer](http://semver.org/) for versioning, three-digit numbering technique based patter of Major, Minor and Patch fixes, see the [release tags](https://github.com/your/project/tags) for more details about version available.
+<!-- Change link path for each repository (automate actions CI/gist)-->
+
+Repositories use [SemVer](http://semver.org/) for versioning, three-digit numbering technique based patter of Major, Minor and Patch fixes, see the [release tags](https://github.com/escummy/webpack-complete/tags) for more details about version available.
 
 <!-- ## Running the tests
 
@@ -140,7 +145,6 @@ Explain what these tests test and why
 Give an example
 ``` -->
 
-<!-- Please read [CONTRIBUTING.md](https://gist.github.com/escummy/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests. -->
 
 <br>
 
@@ -149,6 +153,8 @@ Give an example
 Contributions are always welcome.
 
 See [CONTRIBUTING](.github/CONTRIBUTING.md) for ways to get started, you can colaborate addings features to improve the repository, you can feel free to suggest anything or help solving issues via pull request.
+
+<!-- Please read [CONTRIBUTING.md](https://gist.github.com/escummy/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests. -->
 
 Please adhere to this project [CODE_OF_CONDUCT](.github/CODE_OF_CONDUCT.md), examples of behavior that contributes to a positive environment for our community and adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
 
@@ -163,6 +169,7 @@ Please adhere to this project [CODE_OF_CONDUCT](.github/CODE_OF_CONDUCT.md), exa
 
 A licensor may grant a license under intellectual property laws to authorize a use (such as copying software or using a patented invention) to a licensee, sparing the licensee from a claim of infringement brought by the licensor.
 
+<!-- Change link path for each repository (automate actions CI/gist)-->
 License used for this repository <a href="https://github.com/escummy/webpack-complete/blob/main/LICENSE">`[`MIT License`]`</a>
 
 <!-- #### Hashtags
